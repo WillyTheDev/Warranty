@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EF4D84D267E78FB0051152E /* WarrantyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF4D84C267E78FB0051152E /* WarrantyApp.swift */; };
+		8EF4D84F267E78FB0051152E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF4D84E267E78FB0051152E /* ContentView.swift */; };
+		8EF4D851267E78FC0051152E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF4D850267E78FC0051152E /* Assets.xcassets */; };
+		8EF4D854267E78FC0051152E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF4D853267E78FC0051152E /* Preview Assets.xcassets */; };
+		8EF4D856267E78FC0051152E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF4D855267E78FC0051152E /* Persistence.swift */; };
+		8EF4D859267E78FC0051152E /* Warranty.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8EF4D857267E78FC0051152E /* Warranty.xcdatamodeld */; };
+		8EF4D864267E78FC0051152E /* WarrantyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF4D863267E78FC0051152E /* WarrantyTests.swift */; };
+		8EF4D86F267E78FC0051152E /* WarrantyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF4D86E267E78FC0051152E /* WarrantyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EF4D860267E78FC0051152E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EF4D841267E78FB0051152E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EF4D848267E78FB0051152E;
+			remoteInfo = Warranty;
+		};
+		8EF4D86B267E78FC0051152E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EF4D841267E78FB0051152E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EF4D848267E78FB0051152E;
+			remoteInfo = Warranty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8EF4D849267E78FB0051152E /* Warranty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Warranty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EF4D84C267E78FB0051152E /* WarrantyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarrantyApp.swift; sourceTree = "<group>"; };
+		8EF4D84E267E78FB0051152E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8EF4D850267E78FC0051152E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EF4D853267E78FC0051152E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8EF4D855267E78FC0051152E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		8EF4D858267E78FC0051152E /* Warranty.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Warranty.xcdatamodel; sourceTree = "<group>"; };
+		8EF4D85A267E78FC0051152E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EF4D85F267E78FC0051152E /* WarrantyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarrantyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EF4D863267E78FC0051152E /* WarrantyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarrantyTests.swift; sourceTree = "<group>"; };
+		8EF4D865267E78FC0051152E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EF4D86A267E78FC0051152E /* WarrantyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarrantyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EF4D86E267E78FC0051152E /* WarrantyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarrantyUITests.swift; sourceTree = "<group>"; };
+		8EF4D870267E78FC0051152E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EF4D846267E78FB0051152E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EF4D85C267E78FC0051152E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EF4D867267E78FC0051152E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EF4D840267E78FB0051152E = {
+			isa = PBXGroup;
+			children = (
+				8EF4D84B267E78FB0051152E /* Warranty */,
+				8EF4D862267E78FC0051152E /* WarrantyTests */,
+				8EF4D86D267E78FC0051152E /* WarrantyUITests */,
+				8EF4D84A267E78FB0051152E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EF4D84A267E78FB0051152E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EF4D849267E78FB0051152E /* Warranty.app */,
+				8EF4D85F267E78FC0051152E /* WarrantyTests.xctest */,
+				8EF4D86A267E78FC0051152E /* WarrantyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EF4D84B267E78FB0051152E /* Warranty */ = {
+			isa = PBXGroup;
+			children = (
+				8EF4D84C267E78FB0051152E /* WarrantyApp.swift */,
+				8EF4D84E267E78FB0051152E /* ContentView.swift */,
+				8EF4D850267E78FC0051152E /* Assets.xcassets */,
+				8EF4D855267E78FC0051152E /* Persistence.swift */,
+				8EF4D85A267E78FC0051152E /* Info.plist */,
+				8EF4D857267E78FC0051152E /* Warranty.xcdatamodeld */,
+				8EF4D852267E78FC0051152E /* Preview Content */,
+			);
+			path = Warranty;
+			sourceTree = "<group>";
+		};
+		8EF4D852267E78FC0051152E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8EF4D853267E78FC0051152E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8EF4D862267E78FC0051152E /* WarrantyTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EF4D863267E78FC0051152E /* WarrantyTests.swift */,
+				8EF4D865267E78FC0051152E /* Info.plist */,
+			);
+			path = WarrantyTests;
+			sourceTree = "<group>";
+		};
+		8EF4D86D267E78FC0051152E /* WarrantyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8EF4D86E267E78FC0051152E /* WarrantyUITests.swift */,
+				8EF4D870267E78FC0051152E /* Info.plist */,
+			);
+			path = WarrantyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EF4D848267E78FB0051152E /* Warranty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EF4D873267E78FC0051152E /* Build configuration list for PBXNativeTarget "Warranty" */;
+			buildPhases = (
+				8EF4D845267E78FB0051152E /* Sources */,
+				8EF4D846267E78FB0051152E /* Frameworks */,
+				8EF4D847267E78FB0051152E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Warranty;
+			productName = Warranty;
+			productReference = 8EF4D849267E78FB0051152E /* Warranty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EF4D85E267E78FC0051152E /* WarrantyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EF4D876267E78FC0051152E /* Build configuration list for PBXNativeTarget "WarrantyTests" */;
+			buildPhases = (
+				8EF4D85B267E78FC0051152E /* Sources */,
+				8EF4D85C267E78FC0051152E /* Frameworks */,
+				8EF4D85D267E78FC0051152E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EF4D861267E78FC0051152E /* PBXTargetDependency */,
+			);
+			name = WarrantyTests;
+			productName = WarrantyTests;
+			productReference = 8EF4D85F267E78FC0051152E /* WarrantyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EF4D869267E78FC0051152E /* WarrantyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EF4D879267E78FC0051152E /* Build configuration list for PBXNativeTarget "WarrantyUITests" */;
+			buildPhases = (
+				8EF4D866267E78FC0051152E /* Sources */,
+				8EF4D867267E78FC0051152E /* Frameworks */,
+				8EF4D868267E78FC0051152E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EF4D86C267E78FC0051152E /* PBXTargetDependency */,
+			);
+			name = WarrantyUITests;
+			productName = WarrantyUITests;
+			productReference = 8EF4D86A267E78FC0051152E /* WarrantyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EF4D841267E78FB0051152E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					8EF4D848267E78FB0051152E = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					8EF4D85E267E78FC0051152E = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 8EF4D848267E78FB0051152E;
+					};
+					8EF4D869267E78FC0051152E = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 8EF4D848267E78FB0051152E;
+					};
+				};
+			};
+			buildConfigurationList = 8EF4D844267E78FB0051152E /* Build configuration list for PBXProject "Warranty" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EF4D840267E78FB0051152E;
+			productRefGroup = 8EF4D84A267E78FB0051152E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EF4D848267E78FB0051152E /* Warranty */,
+				8EF4D85E267E78FC0051152E /* WarrantyTests */,
+				8EF4D869267E78FC0051152E /* WarrantyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EF4D847267E78FB0051152E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF4D854267E78FC0051152E /* Preview Assets.xcassets in Resources */,
+				8EF4D851267E78FC0051152E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EF4D85D267E78FC0051152E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EF4D868267E78FC0051152E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EF4D845267E78FB0051152E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF4D856267E78FC0051152E /* Persistence.swift in Sources */,
+				8EF4D859267E78FC0051152E /* Warranty.xcdatamodeld in Sources */,
+				8EF4D84F267E78FB0051152E /* ContentView.swift in Sources */,
+				8EF4D84D267E78FB0051152E /* WarrantyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EF4D85B267E78FC0051152E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF4D864267E78FC0051152E /* WarrantyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EF4D866267E78FC0051152E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF4D86F267E78FC0051152E /* WarrantyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EF4D861267E78FC0051152E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EF4D848267E78FB0051152E /* Warranty */;
+			targetProxy = 8EF4D860267E78FC0051152E /* PBXContainerItemProxy */;
+		};
+		8EF4D86C267E78FC0051152E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EF4D848267E78FB0051152E /* Warranty */;
+			targetProxy = 8EF4D86B267E78FC0051152E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8EF4D871267E78FC0051152E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EF4D872267E78FC0051152E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EF4D874267E78FC0051152E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Warranty/Preview Content\"";
+				DEVELOPMENT_TEAM = HDKVX8UU3K;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Warranty/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "william-scholder.com.Warranty";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EF4D875267E78FC0051152E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Warranty/Preview Content\"";
+				DEVELOPMENT_TEAM = HDKVX8UU3K;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Warranty/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "william-scholder.com.Warranty";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8EF4D877267E78FC0051152E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HDKVX8UU3K;
+				INFOPLIST_FILE = WarrantyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "william-scholder.com.WarrantyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Warranty.app/Warranty";
+			};
+			name = Debug;
+		};
+		8EF4D878267E78FC0051152E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HDKVX8UU3K;
+				INFOPLIST_FILE = WarrantyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "william-scholder.com.WarrantyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Warranty.app/Warranty";
+			};
+			name = Release;
+		};
+		8EF4D87A267E78FC0051152E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HDKVX8UU3K;
+				INFOPLIST_FILE = WarrantyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "william-scholder.com.WarrantyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Warranty;
+			};
+			name = Debug;
+		};
+		8EF4D87B267E78FC0051152E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HDKVX8UU3K;
+				INFOPLIST_FILE = WarrantyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "william-scholder.com.WarrantyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Warranty;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EF4D844267E78FB0051152E /* Build configuration list for PBXProject "Warranty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EF4D871267E78FC0051152E /* Debug */,
+				8EF4D872267E78FC0051152E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EF4D873267E78FC0051152E /* Build configuration list for PBXNativeTarget "Warranty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EF4D874267E78FC0051152E /* Debug */,
+				8EF4D875267E78FC0051152E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EF4D876267E78FC0051152E /* Build configuration list for PBXNativeTarget "WarrantyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EF4D877267E78FC0051152E /* Debug */,
+				8EF4D878267E78FC0051152E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EF4D879267E78FC0051152E /* Build configuration list for PBXNativeTarget "WarrantyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EF4D87A267E78FC0051152E /* Debug */,
+				8EF4D87B267E78FC0051152E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8EF4D857267E78FC0051152E /* Warranty.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8EF4D858267E78FC0051152E /* Warranty.xcdatamodel */,
+			);
+			currentVersion = 8EF4D858267E78FC0051152E /* Warranty.xcdatamodel */;
+			path = Warranty.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8EF4D841267E78FB0051152E /* Project object */;
+}
