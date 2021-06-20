@@ -10,6 +10,8 @@
 		8E947FFC267F265700B49652 /* AddProductButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E947FFB267F265700B49652 /* AddProductButton.swift */; };
 		8E947FFE267F278B00B49652 /* DraculaDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E947FFD267F278B00B49652 /* DraculaDivider.swift */; };
 		8E948000267F27DE00B49652 /* DraculaCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E947FFF267F27DE00B49652 /* DraculaCard.swift */; };
+		8E948008267F2C1500B49652 /* Product+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E948006267F2C1500B49652 /* Product+CoreDataClass.swift */; };
+		8E948009267F2C1500B49652 /* Product+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E948007267F2C1500B49652 /* Product+CoreDataProperties.swift */; };
 		8EF4D84D267E78FB0051152E /* WarrantyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF4D84C267E78FB0051152E /* WarrantyApp.swift */; };
 		8EF4D84F267E78FB0051152E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF4D84E267E78FB0051152E /* ContentView.swift */; };
 		8EF4D851267E78FC0051152E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF4D850267E78FC0051152E /* Assets.xcassets */; };
@@ -41,6 +43,8 @@
 		8E947FFB267F265700B49652 /* AddProductButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductButton.swift; sourceTree = "<group>"; };
 		8E947FFD267F278B00B49652 /* DraculaDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraculaDivider.swift; sourceTree = "<group>"; };
 		8E947FFF267F27DE00B49652 /* DraculaCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraculaCard.swift; sourceTree = "<group>"; };
+		8E948006267F2C1500B49652 /* Product+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Product+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8E948007267F2C1500B49652 /* Product+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Product+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		8EF4D849267E78FB0051152E /* Warranty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Warranty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF4D84C267E78FB0051152E /* WarrantyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarrantyApp.swift; sourceTree = "<group>"; };
 		8EF4D84E267E78FB0051152E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -92,6 +96,15 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		8E948005267F2BE700B49652 /* CoreDataEntity */ = {
+			isa = PBXGroup;
+			children = (
+				8E948006267F2C1500B49652 /* Product+CoreDataClass.swift */,
+				8E948007267F2C1500B49652 /* Product+CoreDataProperties.swift */,
+			);
+			path = CoreDataEntity;
+			sourceTree = "<group>";
+		};
 		8EF4D840267E78FB0051152E = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +128,7 @@
 		8EF4D84B267E78FB0051152E /* Warranty */ = {
 			isa = PBXGroup;
 			children = (
+				8E948005267F2BE700B49652 /* CoreDataEntity */,
 				8E947FFA267F264600B49652 /* Components */,
 				8EF4D84C267E78FB0051152E /* WarrantyApp.swift */,
 				8EF4D84E267E78FB0051152E /* ContentView.swift */,
@@ -285,10 +299,12 @@
 				8E947FFE267F278B00B49652 /* DraculaDivider.swift in Sources */,
 				8E947FFC267F265700B49652 /* AddProductButton.swift in Sources */,
 				8EF4D856267E78FC0051152E /* Persistence.swift in Sources */,
+				8E948008267F2C1500B49652 /* Product+CoreDataClass.swift in Sources */,
 				8EF4D859267E78FC0051152E /* Warranty.xcdatamodeld in Sources */,
 				8EF4D84F267E78FB0051152E /* ContentView.swift in Sources */,
 				8EF4D84D267E78FB0051152E /* WarrantyApp.swift in Sources */,
 				8E948000267F27DE00B49652 /* DraculaCard.swift in Sources */,
+				8E948009267F2C1500B49652 /* Product+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
